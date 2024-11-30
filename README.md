@@ -10,10 +10,12 @@ We implemented quantization, matrix multiplication, and dequantization kernels f
 
 ## Results
 
-1. Linear module benchmark results
-   ![LinearResults](https://github.com/user-attachments/assets/988b5094-96ab-4bbd-b301-c98e50780818)
-2. Full Vit model benchmark results
-   ![ViTBenchmark](https://github.com/user-attachments/assets/4913a9e8-6ca1-46cc-b3b8-31eb43a82a4b)
+1. Linear module benchmark results. Tested on a single NVIDIA 3090 GPU. Input size: 2048 $\times D_{in}$.
+   ![image](https://github.com/user-attachments/assets/73014e1e-f544-4020-93cd-3c389c1f81d1)
+
+2. Full Vit model benchmark results. Tested on a single NVIDIA 3090 GPU. Input batch size: 200..
+   ![image](https://github.com/user-attachments/assets/c8675f41-11f7-4eb4-ae6d-54da12907e40)
+
 
 ## Environment Setup
 
